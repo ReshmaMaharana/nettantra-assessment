@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="root">
+        <!-- Name Input -->
+        Name<span class="req-star">*</span>
+        <div class="input-group">
+            <input type="text" name="first" placeholder="First">&nbsp;&nbsp;
+            <input type="text" name="last" placeholder="Last">
+        </div>
+        <!-- DOB input -->
+        Date of Birth<span class="req-star">*</span>
+        <div>
+            <input type="date" name="date" max="2022-01-01" value="" >
+        </div>
+        <!-- Email -->
+        Email<span class="req-star">*</span>
+        <input type="text" value="" name="mail">
+        <!-- Father's Name -->
+        Father's name<span class="req-star">*</span>
+        <div class="input-group">
+            <input type="text" name="first" placeholder="First"> &nbsp;&nbsp;
+            <input type="text" name="last" placeholder="Last">
+        </div>
+        <!-- Mother's Name -->
+        Mother's name<span class="req-star">*</span>
+        <div class="input-group">
+            <input type="text" name="first" placeholder="First"> &nbsp;&nbsp;
+            <input type="text" name="last" placeholder="Last">
+        </div>
+        <!-- Gender -->
+        Gender<span class="req-star">*</span> <br>
+        <input type="radio" value="male" name="gender">M <br>
+        <input type="radio" value="female" name="gender">F <br>
+        <!-- Nationality -->
+        Nationality<span class="req-star">*</span>
+        <input type="text" name="nation" value="">
+        <!-- Home Address -->
+        Home Address<span class="req-star">*</span>
+        <input type="text" name="address" value="Street Address">
+        <div class="input-group">
+            <input type="text" name="city" value="City"> &nbsp;&nbsp;
+            <select name="country" placeholder="Country">
+                <option>India</option>
+                <option>Indonesia</option>
+                <option>Sri Lanka</option>
+                <option>Austrelia</option>
+            </select>
+        </div>
+        <!-- Telephone input -->
+        Telephone-Home<span class="req-star">*</span>
+        <input type="text" name="ph1" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        Telephone-Mobile<span class="req-star">*</span>
+        <input type="text" name="ph2" value="### ### ####">
+    </div>
+</body>
+
+</html>

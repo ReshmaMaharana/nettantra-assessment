@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.root {
+    width: 600px;
+    min-height: 100vh;
+    background-color: rgb(213, 245, 255);
+    padding: 20px;
+}
+
+input[type=text],input[type=date] {
+    height: 20px;
+    width: 98%;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.req-star {
+    color: red;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.input-group input,.input-group select {
+    width: 100%;
+}
+.input-group select{
+    height: 35px;
+}
