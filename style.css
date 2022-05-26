@@ -6,7 +6,6 @@ body {
 
 .root {
     width: 600px;
-    min-height: 100vh;
     background-color: rgb(213, 245, 255);
     padding: 20px;
 }
@@ -14,7 +13,8 @@ body {
 input[type='text'],
 input[type='date'],
 input[type='email'],
-input[type='tel'] {
+input[type='tel'],
+input[type='number'] {
     height: 20px;
     width: 98%;
     padding: 5px;
@@ -75,6 +75,13 @@ input[type='radio']:checked:after {
     width: 50%;
     margin-bottom: 15px;
     margin-top: 5px;
+}
+
+.input-group div {
+    width: 50%;
+}
+.input-group div input {
+    width: 95%;
 }
 
 .submitBtn{
